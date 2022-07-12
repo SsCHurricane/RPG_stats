@@ -1,0 +1,14 @@
+@import '../../../styles/variables.module';
+
+.heading-one {
+	color: $yellow;
+
+	font-family: $font-secondary;
+	font-size: 3.2rem;
+}
+
+.heading-three {
+	margin: 2rem 0;
+
+	color: $green;
+}

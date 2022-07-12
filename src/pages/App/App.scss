@@ -1,0 +1,10 @@
+.main {
+	display: grid;
+
+	margin: 0 auto;
+	padding: 0 3rem;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: auto;
+
+	gap: 3rem;
+}

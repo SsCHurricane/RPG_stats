@@ -1,0 +1,28 @@
+@import '../../../styles/variables.module';
+
+.input {
+	padding: 1.5rem 0;
+
+	color: $blue;
+	border: none;
+	border-bottom: 2px $yellow solid;
+	background: none;
+
+	font-size: 1.4rem;
+
+	&:focus {
+		outline: none;
+	}
+
+	&--text {
+		grid-column: 1 / -1;
+	}
+
+	&--number {
+		max-width: 5rem;
+
+		text-align: center;
+
+		border: none;
+	}
+}
